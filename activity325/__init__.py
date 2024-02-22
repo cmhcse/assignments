@@ -10,4 +10,4 @@ def exists():
 @check50.check(exists)
 def test1():
     """main.py runs without error"""
-    check50.run("python3 main.py").stdout("*Win-loss-tie*", timeout=5).exit()
+    check50.run("python3 main.py").stdout(".*Win-loss-tie.*", timeout=5).exit()
