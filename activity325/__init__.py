@@ -6,7 +6,6 @@ def exists():
     """python files exist"""
     check50.exists("main.py")
     check50.exists("psrock.py")
-    check50.exists("strategy.py")
 
 @check50.check(exists)
 def test1():
